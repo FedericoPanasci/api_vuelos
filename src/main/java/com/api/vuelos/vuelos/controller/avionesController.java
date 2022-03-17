@@ -10,7 +10,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("apivuelos")
+@RequestMapping("/apivuelos")
 public class avionesController {
     @Autowired
     private avionesRepository avionesRepository;
