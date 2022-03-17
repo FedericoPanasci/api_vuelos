@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "vuelos")
-public class Vuelos {
+public class vuelos {
     @Id
     private Integer id;
     private Integer cantPasajeros;
@@ -16,7 +16,7 @@ public class Vuelos {
     private String origen;
     private String destino;
 
-    public Vuelos(Integer id, Integer cantPasajeros, Date fecha, String aerolinea, String origen, String destino) {
+    public vuelos(Integer id, Integer cantPasajeros, Date fecha, String aerolinea, String origen, String destino) {
         this.id = id;
         this.cantPasajeros = cantPasajeros;
         this.fecha = fecha;
@@ -25,7 +25,7 @@ public class Vuelos {
         this.destino = destino;
     }
 
-    public Vuelos() {
+    public vuelos() {
     }
 
     public Integer getId() {

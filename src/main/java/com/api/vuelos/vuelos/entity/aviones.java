@@ -6,21 +6,21 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "AVIONES")
-public class Aviones {
+public class aviones {
     @Id
     private Integer id;
     private String clase;
     private String modelo;
     private Integer capacidad;
 
-    public Aviones(Integer id, String clase, String modelo, Integer capacidad) {
+    public aviones(Integer id, String clase, String modelo, Integer capacidad) {
         this.id = id;
         this.clase = clase;
         this.modelo = modelo;
         this.capacidad = capacidad;
     }
 
-    public Aviones() {
+    public aviones() {
     }
 
     public Integer getId() {

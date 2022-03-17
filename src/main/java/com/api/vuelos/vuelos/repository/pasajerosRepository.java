@@ -1,8 +1,7 @@
 package com.api.vuelos.vuelos.repository;
 
-import com.api.vuelos.vuelos.entity.Pasajeros;
+import com.api.vuelos.vuelos.entity.pasajeros;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 
-public interface pasajerosRepository extends JpaRepository<Pasajeros, Long> {
+public interface pasajerosRepository extends JpaRepository<pasajeros, Long> {
 }

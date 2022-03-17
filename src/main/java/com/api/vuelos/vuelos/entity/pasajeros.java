@@ -6,7 +6,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "pasajeros")
-public class Pasajeros {
+public class pasajeros {
     @Id
     private Long pasaporte;
     private String nombreApellido;
@@ -15,10 +15,10 @@ public class Pasajeros {
     private String destino;
     private String nacionalidad;
 
-    public Pasajeros() {
+    public pasajeros() {
     }
 
-    public Pasajeros(Long pasaporte, String nombreApellido, Integer idVuelo, String origen, String destino, String nacionalidad) {
+    public pasajeros(Long pasaporte, String nombreApellido, Integer idVuelo, String origen, String destino, String nacionalidad) {
         this.pasaporte = pasaporte;
         this.nombreApellido = nombreApellido;
         this.idVuelo = idVuelo;
